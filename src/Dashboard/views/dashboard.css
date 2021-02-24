@@ -1,0 +1,24 @@
+.main{
+    margin-top: 79px;
+    padding: 2rem 1.5rem;
+    background: #c9bed3;
+    min-height: calc(100vh - 90px);
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.card-track{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding:1.5rem;
+    border-radius: 2px;
+}
+
